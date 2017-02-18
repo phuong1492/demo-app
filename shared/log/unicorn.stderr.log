@@ -1,0 +1,33 @@
+I, [2017-02-19T00:24:00.104309 #20688]  INFO -- : Refreshing Gem list
+I, [2017-02-19T00:24:01.260621 #20688]  INFO -- : listening on addr=/home/phuong/workspace/demo-app/shared/sockets/unicorn.sock fd=13
+I, [2017-02-19T00:24:01.260762 #20688]  INFO -- : worker=0 spawning...
+I, [2017-02-19T00:24:01.262115 #20688]  INFO -- : worker=1 spawning...
+I, [2017-02-19T00:24:01.262589 #20698]  INFO -- : worker=0 spawned pid=20698
+I, [2017-02-19T00:24:01.262747 #20698]  INFO -- : worker=0 ready
+I, [2017-02-19T00:24:01.263622 #20688]  INFO -- : master process ready
+I, [2017-02-19T00:24:01.264073 #20701]  INFO -- : worker=1 spawned pid=20701
+I, [2017-02-19T00:24:01.264213 #20701]  INFO -- : worker=1 ready
+I, [2017-02-19T00:25:01.289775 #21480]  INFO -- : Refreshing Gem list
+I, [2017-02-19T00:25:02.338419 #21480]  INFO -- : unlinking existing socket=/home/phuong/workspace/demo-app/shared/sockets/unicorn.sock
+I, [2017-02-19T00:25:02.338676 #21480]  INFO -- : listening on addr=/home/phuong/workspace/demo-app/shared/sockets/unicorn.sock fd=13
+I, [2017-02-19T00:25:02.338914 #21480]  INFO -- : listening on addr=0.0.0.0:3333 fd=14
+I, [2017-02-19T00:25:02.339010 #21480]  INFO -- : worker=0 spawning...
+I, [2017-02-19T00:25:02.340683 #21480]  INFO -- : worker=1 spawning...
+I, [2017-02-19T00:25:02.341124 #21494]  INFO -- : worker=0 spawned pid=21494
+I, [2017-02-19T00:25:02.341276 #21494]  INFO -- : worker=0 ready
+I, [2017-02-19T00:25:02.342789 #21480]  INFO -- : master process ready
+I, [2017-02-19T00:25:02.343230 #21497]  INFO -- : worker=1 spawned pid=21497
+I, [2017-02-19T00:25:02.343369 #21497]  INFO -- : worker=1 ready
+127.0.0.1 - - [19/Feb/2017:00:25:12 +0900] "GET / HTTP/1.1" 200 - 0.2938
+127.0.0.1 - - [19/Feb/2017:00:25:13 +0900] "GET /favicon.ico HTTP/1.1" 200 - 0.1012
+127.0.0.1 - - [19/Feb/2017:00:33:56 +0900] "GET /tasks HTTP/1.1" 200 - 0.9843
+127.0.0.1 - - [19/Feb/2017:00:33:56 +0900] "GET /application.self-af04b226fd7202dfc532ce7aedb95a0128277937e90d3b3a3d35e1cce9e16886.css?body=1 HTTP/1.1" 200 703 0.0052
+127.0.0.1 - - [19/Feb/2017:00:33:56 +0900] "GET /scaffolds.self-fd250b15afca246760e9a5ec08030496927f3e7563719fed97e7bee5b44c7144.css?body=1 HTTP/1.1" 200 2451 0.0058
+127.0.0.1 - - [19/Feb/2017:00:33:56 +0900] "GET /jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1 HTTP/1.1" 200 293431 0.0183
+127.0.0.1 - - [19/Feb/2017:00:33:56 +0900] "GET /jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1 HTTP/1.1" 200 21600 0.0094
+127.0.0.1 - - [19/Feb/2017:00:33:56 +0900] "GET /turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1 HTTP/1.1" 200 34719 0.0068
+127.0.0.1 - - [19/Feb/2017:00:33:56 +0900] "GET /action_cable.self-17ebe4af84895fa064a951f57476799066237d7bb5dc4dc351a8b01cca19cce9.js?body=1 HTTP/1.1" 200 20480 0.0108
+127.0.0.1 - - [19/Feb/2017:00:33:56 +0900] "GET /cable.self-6e0514260c1aa76eaf252412ce74e63f68819fd19bf740595f592c5ba4c36537.js?body=1 HTTP/1.1" 200 291 0.0062
+127.0.0.1 - - [19/Feb/2017:00:33:56 +0900] "GET /tasks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1 HTTP/1.1" 200 31 0.0060
+127.0.0.1 - - [19/Feb/2017:00:33:56 +0900] "GET /application.self-b89234cf2659d7fedea75bca0b8d231ad7dfc2f3f57fcbaf5f44ed9dc384137b.js?body=1 HTTP/1.1" 200 662 0.0230
+127.0.0.1 - - [19/Feb/2017:00:33:56 +0900] "GET /tasks.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1 HTTP/1.1" 200 - 0.3156
